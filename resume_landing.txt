@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooper Davis | Resume Links</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #1f2937 0%, #111827 45%, #030712 100%);
+      color: #f9fafb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: rgba(17, 24, 39, 0.86);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+      backdrop-filter: blur(18px);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(147, 197, 253, 0.22);
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: 38px;
+      line-height: 1.05;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #d1d5db;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .links {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .link-button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      width: 100%;
+      text-decoration: none;
+      color: #f9fafb;
+      padding: 17px 18px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+    }
+
+    .link-button:hover {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.11);
+      border-color: rgba(147, 197, 253, 0.5);
+    }
+
+    .link-title {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .link-desc {
+      color: #9ca3af;
+      font-size: 14px;
+    }
+
+    .arrow {
+      color: #93c5fd;
+      font-size: 22px;
+    }
+
+    .contact-box {
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 22px;
+      display: grid;
+      gap: 10px;
+      color: #d1d5db;
+      font-size: 15px;
+    }
+
+    .contact-box a {
+      color: #bfdbfe;
+      text-decoration: none;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      margin-top: 22px;
+      color: #6b7280;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 520px) {
+      .card {
+        padding: 26px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">Resume QR Hub</div>
+
+    <h1>Cooper Davis</h1>
+
+    <p class="subtitle">
+      Operations-focused business professional with experience in retail execution, team support, scheduling, service standards, and process improvement.
+    </p>
+
+    <section class="links" aria-label="Professional links">
+      <a class="link-button" href="https://www.linkedin.com/in/cooper-davis-2657a7281/" target="_blank" rel="noopener noreferrer">
+        <span>
+          <div class="link-title">LinkedIn</div>
+          <div class="link-desc">View my professional profile and experience</div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link-button" href="https://github.com/Cooper-Matrix" target="_blank" rel="noopener noreferrer">
+        <span>
+          <div class="link-title">GitHub</div>
+          <div class="link-desc">See projects, code, and operations tools</div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link-button" href="mailto:cooperdavis994@gmail.com">
+        <span>
+          <div class="link-title">Email Me</div>
+          <div class="link-desc">cooperdavis994@gmail.com</div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link-button" href="tel:+12100000000">
+        <span>
+          <div class="link-title">Call or Text</div>
+          <div class="link-desc">Replace with your phone number</div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+    </section>
+
+    <section class="contact-box" aria-label="Contact information">
+      <div><strong>Email:</strong> <a href="mailto:cooperdavis994@gmail.com">cooperdavis994@gmail.com</a></div>
+      <div><strong>Phone:</strong> <a href="tel:+12100000000">Replace with your phone number</a></div>
+      <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cooper-davis-2657a7281/" target="_blank" rel="noopener noreferrer">linkedin.com/in/cooper-davis-2657a7281</a></div>
+      <div><strong>GitHub:</strong> <a href="https://github.com/Cooper-Matrix" target="_blank" rel="noopener noreferrer">github.com/Cooper-Matrix</a></div>
+    </section>
+
+    <p class="footer-note">
+      Built as a simple QR landing page for a printed resume.
+    </p>
+  </main>
+</body>
+</html>
